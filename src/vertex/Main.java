@@ -34,4 +34,14 @@ public class Main {
         }
         return newList;
     }
+
+    private static List<Integer> ve(List<Integer> list) {
+        List<Integer> newList = new LinkedList<>();
+        for (Integer elem : list) {
+            if (elem % 2 != 0) {
+                newList.add(elem);
+            }
+        }
+        return newList;
+    }
 }
